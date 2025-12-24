@@ -14,7 +14,7 @@ st.sidebar.title("Potato Leaf Disease Detection")
 app_mode = st.sidebar.selectbox("Select Page",["HOME","DISEASE RECOGNITION"])
 #app_mode = st.sidebar.selectbox("Select Page",["Home"," ","Disease Recognition"])
 
-# import Image from pillow to open images
+# import Image from pillow to open image
 from PIL import Image
 img = Image.open("Diseases.png")
 
